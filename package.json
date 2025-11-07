@@ -1,0 +1,22 @@
+{
+  "name": "sot-discord-bot",
+  "version": "1.0.0",
+  "description": "Sea of Thieves Companion Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node verify-syntax.js && node verify-commands.js && node test-db-connection.js",
+    "check-env": "node check-env.js"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.4"
+  },
+  "author": "Dakota Letterman (Tech Solutions Unlimited)",
+  "license": "MIT"
+}

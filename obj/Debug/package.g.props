@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">sot-discord-bot</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">1.0.0</PackageJsonVersion>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">Sea of Thieves Companion Discord Bot</PackageJsonDescription>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">index.js</PackageJsonMain>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">node index.js</PackageJsonScriptsStart>
+    <PackageJsonScriptsTest Condition="$(PackageJsonScriptsTest) == ''">node verify-syntax.js &amp;&amp; node verify-commands.js &amp;&amp; node test-db-connection.js</PackageJsonScriptsTest>
+    <PackageJsonScriptsCheckEnv Condition="$(PackageJsonScriptsCheckEnv) == ''">node check-env.js</PackageJsonScriptsCheckEnv>
+    <PackageJsonEnginesNode Condition="$(PackageJsonEnginesNode) == ''">&gt;=16.9.0</PackageJsonEnginesNode>
+    <PackageJsonDependenciesDiscordJs Condition="$(PackageJsonDependenciesDiscordJs) == ''">^14.22.0</PackageJsonDependenciesDiscordJs>
+    <PackageJsonDependenciesDotenv Condition="$(PackageJsonDependenciesDotenv) == ''">^16.6.1</PackageJsonDependenciesDotenv>
+    <PackageJsonDependenciesExpress Condition="$(PackageJsonDependenciesExpress) == ''">^4.21.2</PackageJsonDependenciesExpress>
+    <PackageJsonDependenciesMysql2 Condition="$(PackageJsonDependenciesMysql2) == ''">^2.3.3</PackageJsonDependenciesMysql2>
+    <PackageJsonAuthor Condition="$(PackageJsonAuthor) == ''">Dakota Letterman (Tech Solutions Unlimited)</PackageJsonAuthor>
+    <PackageJsonLicense Condition="$(PackageJsonLicense) == ''">MIT</PackageJsonLicense>
+  </PropertyGroup>
+</Project>
