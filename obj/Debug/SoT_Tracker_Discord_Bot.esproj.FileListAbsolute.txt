@@ -1,0 +1,1 @@
+A:\source\repos\SoT_Tracker_Discord_Bot\SoT_Tracker_Discord_Bot\obj\Debug\SoT_Tracker_Discord_Bot.esproj.CoreCompileInputs.cache
