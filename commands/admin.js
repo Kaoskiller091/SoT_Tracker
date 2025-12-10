@@ -165,7 +165,7 @@ async function handleList(interaction) {
         { name: 'Admins', value: admins.length > 0 ? admins.join('\n') : 'None' },
         { name: 'Whitelisted Users', value: whitelisted.length > 0 ? whitelisted.join('\n') : 'None' }
       )
-      .setFooter({ text: 'Sea of Thieves Companion' });
+      .setFooter({ text: 'Sea of Thieves Companion 2025' });
     
     await interaction.reply({
       embeds: [embed],
